@@ -10,7 +10,7 @@ body {
   /*color: #444*/
 }
 
-@media only screen and (min-width: 220px) and (max-width: 769px) {
+@media (min-width: 220px) and (max-width: 769px) {
   body {
     font-size: 14px; /* Tamanho da fonte reduzido para telas menores */
   }
