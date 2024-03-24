@@ -49,6 +49,22 @@ body {
     margin: 4pt; /* Reduz a margem entre os cartões */
     font-size: small;
   }
+
+  #video-background {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    object-fit: cover; /* Adicionado */
+    left: 50%; /* Define a margem esquerda para 50% */
+    transform: translateX(
+      -50%
+    ); /* Move o vídeo 50% para a esquerda para centralizá-lo */
+  }
 }
 
 .styled-button {
