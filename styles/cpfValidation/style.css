@@ -10,6 +10,55 @@ body {
   /*color: #444*/
 }
 
+@media only screen and (min-width: 220px) and (max-width: 769px) {
+  body {
+    font-size: 14px; /* Tamanho da fonte reduzido para telas menores */
+  }
+
+  header {
+    flex-direction: column; /* Alinha os itens verticalmente em telas menores */
+    padding: 1rem;
+  }
+
+  .logo video {
+    width: 150px; /* Reduz o tamanho do vídeo da logo */
+    height: 150px;
+  }
+
+  .sing-in {
+    margin-top: 1rem; /* Adiciona espaço entre o logo e o formulário de login */
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%; /* Faz os campos de entrada ocuparem toda a largura disponível */
+    margin-bottom: 1rem; /* Adiciona espaço entre os campos de entrada */
+  }
+
+  .hero {
+    width: 90%; /* Reduz a largura do conteúdo principal */
+  }
+
+  .members {
+    flex-wrap: wrap; /* Permite que os membros da equipe sejam exibidos em várias linhas */
+  }
+
+  .member img {
+    width: 80px; /* Reduz o tamanho das imagens dos membros da equipe */
+    height: 80px;
+  }
+
+  .cards {
+    flex-wrap: wrap; /* Permite que os cartões de linguagens e frameworks sejam exibidos em várias linhas */
+  }
+
+  .card {
+    width: 45%; /* Reduz a largura dos cartões para caber em telas menores */
+    margin: 4pt; /* Reduz a margem entre os cartões */
+  }
+}
+
 .styled-button {
   background-color: #f8f8f8;
   border: none;
