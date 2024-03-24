@@ -40,25 +40,6 @@ body {
     width: 90%; /* Reduz a largura do conteúdo principal */
   }
 
-  /* Divide os membros da equipe em duas linhas horizontais */
-  .members {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; /* Alinha os membros ao centro horizontalmente */
-  }
-
-  .member {
-    width: 50%; /* Cada membro ocupa metade da largura disponível */
-    box-sizing: border-box; /* Garante que a largura inclua a margem */
-    padding: 8px; /* Adiciona um espaço uniforme ao redor de cada membro */
-  }
-
-  .member img {
-    width: 100%; /* As imagens dos membros ocupam toda a largura do contêiner */
-    height: auto; /* Altura automática para manter a proporção */
-    border-radius: 10px; /* Adiciona bordas arredondadas às imagens */
-  }
-
   .cards {
     flex-wrap: wrap; /* Permite que os cartões de linguagens e frameworks sejam exibidos em várias linhas */
   }
@@ -66,6 +47,7 @@ body {
   .card {
     width: 45%; /* Reduz a largura dos cartões para caber em telas menores */
     margin: 4pt; /* Reduz a margem entre os cartões */
+    font-size: small;
   }
 }
 
